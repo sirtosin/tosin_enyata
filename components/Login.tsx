@@ -27,7 +27,7 @@ export default function Login() {
           <form className="space-y-4 w-full">
             <Input
               label="Email Address"
-              placeholder="john doe"
+              placeholder="john@doe.com"
               name="email"
               type="email"
               onChange={handleChange}
@@ -39,7 +39,7 @@ export default function Login() {
             ) : null}
             <Input
               label="Password"
-              placeholder="john doe"
+              placeholder="********"
               name="password"
               type="password"
               onChange={handleChange}
