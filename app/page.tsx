@@ -8,7 +8,7 @@ export default function Home() {
       <div className="hidden sm:flex h-screen w-1/4 bg-[#031434] p-5 items-center justify-center">
         <Logo />
       </div>
-      <div className="w-full sm:w-3/4 flex items-center justify-center bg-white h-screen sm:h-fit">
+      <div className="w-full sm:w-3/4 flex items-center justify-center bg-white h-screen">
         <Login />
       </div>
     </main>
